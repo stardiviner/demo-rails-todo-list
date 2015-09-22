@@ -45,3 +45,5 @@ group :development do
   gem 'spring'
 end
 
+gem 'pry-rails', group: :development
+gem 'awesome_print'
