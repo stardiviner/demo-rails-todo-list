@@ -47,3 +47,7 @@ end
 
 gem 'pry-rails', group: :development
 gem 'awesome_print'
+
+# Use Bootstrap-SASS for Rails
+gem 'bootstrap-sass', '~> 3.3.5'
+# gem 'sass-rails', '>= 3.2'
