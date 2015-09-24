@@ -1,0 +1,45 @@
+* Design
+
+** Model
+
+*** todos // todo list
+
+- todo :: a single todo task
+  - title (string)
+  - content (string)
+  - state (string)
+
+- =$ rails generate scaffold todo title:string content:string state:string=
+- =$ rake db:migrate=
+
+* Functions [3/24]
+
+- [X] basic
+  - [X] model todo
+- [-] interactive (JavaScript (AJAX) -> request)
+  - [X] Rails default
+  - [ ] show task
+    - [ ] click task to show task details
+  - [ ] add task
+  - [ ] delete task
+  - [ ] edit task
+  - [ ] checkbox
+  - [ ] mark done
+  - [ ] multiple selection manipulation
+    - [ ] delete
+    - [ ] mark
+      - [ ] complete
+      - [ ] un-complete
+  - [ ] JavaScript AJAX
+- [ ] UI
+  - [ ] bootstrap
+    - [ ] rails bootstrap
+    - [ ] record to Org
+- [ ] user
+  - [ ] permission
+    - [ ] user only can manipulate user own tasks
+
+* Todos [0/1]
+
+- [ ] after finish basic prototype, add this link to Blog Resume "Projects" section.
+
